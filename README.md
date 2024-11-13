@@ -10,16 +10,16 @@
     HTML: For the user interface.
     CSS: For the visual design of the application.
 ## Project structure
-The basic structure of the project is as follows:
-/my-guess-game
-│
-├── /public.
-│  └── index.html # HTML file containing the game view.
-│  └── script.js # Server logic and Express configuration.
-│
-├─── Dockerfile # Configuration to create the Docker image.
-├─── package.json # Project dependencies and NPM scripts.
-└─── README.md # This README file.
+    The basic structure of the project is as follows:
+    /my-guess-game
+    │
+    ├── /public.
+    │  └── index.html # HTML file containing the game view.
+    │  └── script.js # Server logic and Express configuration.
+    │
+    ├─── Dockerfile # Configuration to create the Docker image.
+    ├─── package.json # Project dependencies and NPM scripts.
+    └─── README.md # This README file.
 ## Prerequisites.
 Make sure you have the following tools installed on your machine:
 Node.js: Download and install Node.js.
@@ -53,6 +53,6 @@ If you wish to contribute to this project, please follow these steps:
     The container is configured to run on port 3000 you can use the image with the following message
 
     docker pull cristinacolcha/mi-juego-adivinanza:latest
-    
+
 This README is organized in a single block with all the detailed information, and each section is clearly described for quick understanding.
 
