@@ -1,62 +1,53 @@
-## Juego de Adivinanza de Números
-    Este proyecto es un juego en el cual el usuario tiene que adivinar un número secreto entre 1 y 10. El jugador tiene 5 intentos para adivinar el número correctamente. Si se quedan sin intentos o adivinan el número, el juego se detiene.
-## Funcionalidades principales:
-    Generación aleatoria de un número secreto entre 1 y 10.
-    5 intentos para adivinar el número.
-## Tecnologías utilizadas
-    Node.js: Entorno de ejecución 
-    JavaScript: Lenguaje de programación 
-    HTML: Para la interfaz de usuario.
-    CSS: Para el diseño visual de la aplicación.
-## Estructura del proyecto
-La estructura básica del proyecto es la siguiente:
-
-/mi-juego-adivinanza
+ 
+## Number Guessing Game
+    This project is a game in which the user has to guess a secret number between 1 and 10. The player has 5 attempts to guess the number correctly. If they run out of tries or guess the number, the game stops.
+## Main features:
+    Random generation of a secret number between 1 and 10.
+    5 attempts to guess the number.
+## Technologies used
+    Node.js: Execution environment 
+    JavaScript: Programming language 
+    HTML: For the user interface.
+    CSS: For the visual design of the application.
+## Project structure
+The basic structure of the project is as follows:
+/my-guess-game
 │
-├── /public
-│   └── index.html       # Archivo HTML que contiene la vista del juego.
-│   └── script.js        # Lógica del servidor y configuración de Express.
+├── /public.
+│  └── index.html # HTML file containing the game view.
+│  └── script.js # Server logic and Express configuration.
 │
-├── Dockerfile           # Configuración para crear la imagen Docker.
-├── package.json         # Dependencias del proyecto y scripts de NPM.
-└── README.md            # Este archivo README.
-## Requisitos previos
-Asegúrate de tener las siguientes herramientas instaladas en tu máquina:
-
-Node.js: Descargar e instalar Node.js
-
-## Instalación
-1. Clonar el repositorio
-Primero, clona este repositorio en tu máquina local usando Git:
-
+├─── Dockerfile # Configuration to create the Docker image.
+├─── package.json # Project dependencies and NPM scripts.
+└─── README.md # This README file.
+## Prerequisites.
+Make sure you have the following tools installed on your machine:
+Node.js: Download and install Node.js.
+## Installation
+1. Clone the repository
+First, clone this repository on your local machine using Git:
     git clone https://github.com/Cristina-Colcha/Adivinanza.git
-2. Instalar dependencias
-Accede a la carpeta del proyecto y ejecuta el siguiente comando para instalar las dependencias de Node.js:
-
-    cd mi-juego-adivinanza
+2. Install dependencies
+Access the project folder and run the following command to install the Node.js dependencies:
+    cd my-guess-game
     npm install
-3. Ejecutar la aplicación en desarrollo
-Para ejecutar la aplicación localmente, puedes utilizar el siguiente comando:
-
+3. Run the application in development
+To run the application locally, you can use the following command:
     npm start
-Esto iniciará un servidor en http://localhost:3000 y podrás acceder al juego desde tu navegador.
+This will start a server at http://localhost:3000 and you will be able to access the game from your browser.
+## Usage
+Open your browser and go to http://localhost:3000.
+    The game will display a field to enter a number between 1 and 10.
+    Enter a number and click on “Guess”.
+    The game will give you clues as to whether the number is too low or too high.
+    If you guess the number or run out of tries, the game will stop.
+## Contribution
+If you wish to contribute to this project, please follow these steps:
+1. Make a fork of the repository.
+2. Create a new branch for your feature (git checkout -b feature/my-new-feature).
+3. Make your changes and commit (git commit -am 'Added my new feature').
+4. Push to your branch (git push origin feature/my-new-feature).
+5. Open a pull request.
+## Author
+This README is organized in a single block with all the detailed information, and each section is clearly described for quick understanding.
 
-## Uso
-Abre tu navegador y ve a http://localhost:3000.
-    El juego mostrará un campo para introducir un número entre 1 y 10.
-    Introduce un número y haz clic en "Adivinar".
-    El juego te dará pistas sobre si el número es muy bajo o muy alto.
-    Si adivinas el número o te quedas sin intentos, el juego se detendrá.
-## Contribución
-
-Si deseas contribuir a este proyecto, por favor sigue estos pasos:
-
-1. Haz un fork del repositorio.
-2. Crea una nueva rama para tu característica (git checkout -b feature/mi-nueva-caracteristica).
-3. Realiza tus cambios y haz un commit (git commit -am 'Agregada mi nueva característica').
-4. Haz push a tu rama (git push origin feature/mi-nueva-caracteristica).
-5. Abre un pull request.
-
-## Autor
-
-Este README está organizado en un solo bloque con toda la información detallada, y cada sección se describe claramente para una comprensión rápida.
