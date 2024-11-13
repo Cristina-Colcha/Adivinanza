@@ -48,6 +48,11 @@ If you wish to contribute to this project, please follow these steps:
 3. Make your changes and commit (git commit -am 'Added my new feature').
 4. Push to your branch (git push origin feature/my-new-feature).
 5. Open a pull request.
-## Author
+## If you want to use the Docker Hub image:
+    Download image from Docker Hub:
+    The container is configured to run on port 3000 you can use the image with the following message
+
+    docker pull cristinacolcha/mi-juego-adivinanza:latest
+    
 This README is organized in a single block with all the detailed information, and each section is clearly described for quick understanding.
 
